@@ -1,0 +1,39 @@
+Basic SQL Queries
+
+Create Database
+
+CREATE DATABASE databasename;
+
+CREATE DATABASE: create database  sivaka_tech;
+Access / Use Database:
+use sivaka_tech;  or select the database from "database drop down list" by selecting the database name 
+
+
+DROP DATABASE : 
+drop database sivaka_tech;
+
+CREATE TABLE : 
+create  table  employee
+(
+   employee_ID       varchar(20) PRIMARY KEY not null
+   employee_fname    varchar(250) not null
+   employee_lname    varchar(250) not null
+   salary		varchar(50) not null
+   Address          varchar(250) null
+);
+
+INSERT DATA INTO TABLE : 
+
+insert into employee values('E001','Sivaka','Raj','20 000', '111, XYZ Avenue')
+insert into employee values('E002','Jana','Shayan','18 000', '112, MYK Avenue')
+
+
+DROP TABLE : 
+drop table employee;  - to delete table permanently 
+
+DELETE TABLE: 
+delete table employee; to delete only the datas in the table and keep the field names 
+
+ALTER TABLE: 
+alter table employee drop column address  -- to delete  column or field
+alter table employee add column title  -- to add  column or field
