@@ -37,3 +37,15 @@ delete table employee; to delete only the datas in the table and keep the field 
 ALTER TABLE: 
 alter table employee drop column address  -- to delete  column or field
 alter table employee add column title  -- to add  column or field
+
+
+-- Adding values into the table 
+insert into Customers values (1,'John', 'Ray','123 Avenue',283883,'ass123@gmail.com')
+select * from Customers
+
+--  adding  values only not null fileds 
+insert into Customers values (2,'Niro', 'Shan', null,null, null)
+
+delete from Customers -- to delete all records
+delete from Customers where Cus_ID=1 -- to delete specific data/record
+
