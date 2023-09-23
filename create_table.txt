@@ -1,0 +1,9 @@
+CREATE TABLE EMPLOYEEs
+      (EMPNO       CHAR(10)         NOT NULL,
+       FIRSTNME    VARCHAR(20)     NOT NULL,
+       LASTNAME    VARCHAR(15)     NOT NULL,
+       EMPDEPT     CHAR(5)                 ,
+       PHONENO     CHAR(10)                 ,
+       SALARY      DECIMAL(9,2)            ,
+       BONUS       DECIMAL(9,2)            ,     
+       PRIMARY KEY (EMPNO));
